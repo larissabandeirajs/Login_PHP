@@ -1,0 +1,64 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-image: url("../img/3b8ad2c7b1be2caf24321c852103598a.jpg");
+    background-position: 50% 70%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input{
+    display: block;
+    height: 55px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid black;
+    font-size: 16pt;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255,0.01);
+    color: brown;
+}
+div#corpo-form{
+    /*background-color: brown;*/
+    width: 420px;
+    margin: 130px auto 0px auto;
+}
+div#corpo-form-Cad{
+    /*background-color: brown;*/
+    width: 420px;
+    margin: 80px auto 0px auto;
+}
+div#corpo-form h1,div#corpo-form-Cad{
+    text-align: center;
+    padding: 20px;
+}
+a{
+    color: red;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+a:hover{
+    text-decoration: underline;
+}
+input[type=submit]{
+    background-color:green ;
+    border: none;
+    cursor: pointer;
+}
+div#msg-sucesso{
+    width: 400px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: rgba(50, 205, 50,.3);
+    border: 1px solid rgb(34,139,34);
+}
+
+div.msg-erro{
+    width: 400px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: rgba(250, 128, 114,.3);
+    border: 1px solid rgb(165,42,42);
+}
